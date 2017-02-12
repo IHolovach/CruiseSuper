@@ -1,0 +1,266 @@
+
+@font-face {
+    font-family: SansBold; 
+    src: url(../fonts/PT_Sans_Bold.ttf);
+}
+@font-face {
+    font-family: SansBoldItalic; 
+    src: url(../fonts/PT_Sans_Bold_Italic.ttf);
+}
+@font-face {
+    font-family: SansItalic; 
+    src: url(../fonts/PT_Sans_Italic.ttf);
+}
+@font-face {
+    font-family: Sans; 
+    src: url(../fonts/PT_Sans.ttf);
+}*{
+	margin: 0;
+	padding: 0;
+}
+.thumbnail{
+	margin: 0;
+	padding: 0;
+}
+.caption{
+	margin: 0;
+	padding: 0;
+}
+h2{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: SansBold;
+}
+h3 {
+ width: 100%;
+ margin: 0;
+ padding: 2%;
+ text-align: center;
+ text-transform: uppercase;
+}
+h3:after {
+ display: inline-block;
+ margin: 0 0 8px 20px;
+ height: 1px;
+ content: " ";
+ text-shadow: none;
+ background-color: rgba(0,0,0,0.5);
+ width: 35%;
+}
+h3:before {
+ display: inline-block;
+ margin: 0 20px 8px 0;
+ height: 1px;
+ content: " ";
+ text-shadow: none;
+ background-color: rgba(0,0,0,0.5);
+ width: 35%;
+}
+header{
+	background-color: #fff;
+	position: relative;
+	text-align: left;
+}
+header .centered{
+	line-height: 10em;
+	height: 10em;
+}
+header p{
+	text-align: center;
+	color: #000;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-style: italic;
+	font-variant: bold;
+	font-weight:500;
+}
+header p span{
+	text-align: center;
+	color: #2A82AB;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-style: italic;
+	font-variant: bold;
+	font-weight:500;
+}
+header img{
+	max-width: 100%;
+}
+header form{
+	margin-top: 15%;
+	width: 100%;
+}
+input{
+	width: 100%;
+	display: block;
+}
+.socialButGroup ul{
+	list-style: none;
+	text-align: center;
+	margin-top: 10%;
+}
+.socialButGroup ul li{
+	display: inline-block; 
+	padding: 6px;
+	height: 3em;
+	width: 3em;
+	border-radius: 10%;
+	background-color: #49B134;
+}
+.socialButGroup ul li a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.socialButGroup ul li:hover{
+	text-decoration: none;
+	padding: 6px;
+	color: white;
+	display:inline-block;
+	background-color: #3D8B2D;
+}
+main{
+	background: url(../images/Background.png);
+}
+main .container{
+	background-color: white; 
+}
+main form input{
+	display: inline-block;
+}
+.content{
+	background-color: white;  
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 0%;
+}
+.topMenu{ 		
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-style: italic;
+	font-variant: bold;
+	font-weight:200;
+}
+.topMenu ul{ 
+	list-style: none;
+	margin: 0;
+	padding: 1%;
+	background: #2A82AB;
+	text-align: center;
+}
+.topMenu ul li{
+	display: inline; 
+	padding: 1%; 
+}
+.topMenu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.topMenu ul li:hover{
+	text-decoration: none;
+	color: white;
+	display:inline;
+	background-color: #27637F;
+}
+footer{
+	position: relative;
+	background-color: #2A82AB;
+	color: white;
+	padding: 1%;
+	text-transform: uppercase;
+}
+footer a{
+	color: white;
+}
+footer a:hover{
+	text-decoration: none;
+	color: white;
+}
+footer ul{
+	position: relative;
+	display: inline;
+	vertical-align: middle;
+	list-style: none;
+	top: 50%;
+	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1em;
+	font-style: italic;
+	font-variant: bold;
+	font-weight:500;
+}
+footer ul li{
+	position: relative;
+	display: inline-block; 
+	padding: 2%;
+	border-radius: 10%;
+}
+footer ul li a{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.5);
+}
+footer ul li a:hover{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+
+.intoduce img{
+	max-width: 100%;
+}
+section .introduce{
+	background-color: grey;
+	display: block;
+}
+.followNews{
+	background: #2A82AB;
+	padding: 3%;
+	margin: 3%;
+	position: relative;
+}
+.followNews input{
+	width:100%; display: inline-block;
+}
+.numbers{
+	color: orange;
+	font-size: 5em;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+}
+.introduce{
+	background-color: #D8D8D8;
+	padding: 3%;
+	margin-bottom: 3%;
+}
+.intro { height:100%; border-radius: 50%; }
+
+.products{ 		
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-style: italic;
+	font-variant: bold;
+	font-weight:200;
+	display: block;
+	text-transform: uppercase;
+}
+.products ul {
+    font: 14px Verdana, Geneva, sans-serif;
+    text-align: center;
+    display: block;
+}
+.products ul:after {
+    content: '';
+    display: block;
+}
+.products ul li {
+    display : inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: normal;
+    width:22%;
+}
+.text_content{
+	text-align: center;
+	padding: 3%;
+}
